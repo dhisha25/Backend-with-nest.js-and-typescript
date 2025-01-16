@@ -5,7 +5,7 @@ import { UserModule } from './users/users.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://dhishadhisha2006:<dbpassword>@cluster0.7yjdt.mongodb.net'),
+    MongooseModule.forRoot('mongodb+srv://dhishadhisha2006:<dbpassword>cluster0.mongodb.net'),
    UserModule],
   controllers: [],
   providers: [],
